@@ -13,9 +13,9 @@ Build and Run
 -------------
 
 1. Run in the command line:
-	mvn package
+	1. mvn package
 	
-	mvn org.eclipse.jetty:jetty-maven-plugin:run
+	2. mvn org.eclipse.jetty:jetty-maven-plugin:run
      or 
     mvn spring-boot:run
 
