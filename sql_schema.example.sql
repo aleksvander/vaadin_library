@@ -27,15 +27,3 @@ CREATE CACHED TABLE public.book
   CONSTRAINT book_genre_id_fk FOREIGN KEY (genre_id) REFERENCES public.genre(id),
   PRIMARY KEY (id)
 );
-
-CREATE OR REPLACE UNIQUE INDEX "AUTHOR_ID_UINDEX"
-	ON public.author (id);
-
-CREATE OR REPLACE UNIQUE INDEX "BOOK_ID_UINDEX"
-	ON public.book (id);
-
-CREATE OR REPLACE UNIQUE INDEX "GENRE_ID_UINDEX"
-	ON public.genre (id);
-
-CREATE OR REPLACE UNIQUE INDEX "GENRE_NAME_UINDEX"
-	ON public.genre (name);
