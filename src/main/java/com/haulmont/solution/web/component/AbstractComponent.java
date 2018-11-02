@@ -1,8 +1,8 @@
 package com.haulmont.solution.web.component;
 
 /**
- *
- * @param <T1>
+ * Controller for components, recommend use this class for interactions between view and dialog window
+ * @param <T1> - any Entity class
  */
 public abstract class AbstractComponent<T1>
 {
